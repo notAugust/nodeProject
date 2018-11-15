@@ -1,0 +1,15 @@
+请不要修改此文件
+请不要修改此文件
+请不要修改此文件
+
+复制此文件，并修改文件名为：custom.config.js，并按照下面的示例配置自定义参数：
+1.proxyTable:服务映射关系，用于与后端接口联调
+
+module.exports = {
+  proxyTable: {
+    '/artemis-web': {
+      target: 'http://172.16.0.28:1234',
+      changeOrigin: true
+    }
+  }
+};
