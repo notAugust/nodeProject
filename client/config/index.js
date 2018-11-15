@@ -71,7 +71,7 @@ module.exports = {
           target: 'http://127.0.0.1:8888/api',
           changeOrigin: true,
           pathRewrite: {
-            '^/api': ''  // 若target中没有/api、这里又为空，则404；
+            '^/api': ''
           }
         }
       }, (customConfig ? customConfig.proxyTable : {})
