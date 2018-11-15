@@ -6,7 +6,7 @@ a node project
 	后端 express + mongoose
 	
 
-1.启动mongod:
+1.启动mongod(因人而异):
 
   	cd /usr/local/bin
   
