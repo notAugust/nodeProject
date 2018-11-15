@@ -7,8 +7,8 @@
 
 module.exports = {
   proxyTable: {
-    '/artemis-web': {
-      target: 'http://172.16.0.28:1234',
+    '/aaa-bb': {
+      target: 'http://172.233.0.12:1234',
       changeOrigin: true
     }
   }
