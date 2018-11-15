@@ -7,7 +7,6 @@
 /server/test/unit/coverage/
 /server/test/e2e/reports/
 /server/selenium-debug.log
-/server/config/index.js
 /server/config/custom.config.js
 
 # Editor directories and files
